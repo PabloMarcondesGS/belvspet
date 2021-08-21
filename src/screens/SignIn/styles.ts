@@ -10,24 +10,24 @@ export const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    // height: 360,    
+    // height: 700,    
   },
   content: {  
     position: 'absolute',  
     marginTop: -0,    
-    paddingHorizontal: 50
+    paddingHorizontal: 5
   },
   title: {
-    color: '#DDE3F0',
+    color: '#030406',
     textAlign: 'left',
-    fontSize: 40,
+    fontSize: 60,
     marginBottom: 8,   
     fontFamily: theme.fonts.title700,
-    lineHeight: 40 
+    lineHeight: 60 
   },
   subtitle: {
-    color: '#DDE3F0',
-    fontSize: 13,
+    color: '#2B4C8C',
+    fontSize: 25,
     textAlign: 'left',
     marginBottom: 35,
     fontFamily: theme.fonts.title500,

@@ -40,22 +40,13 @@ export function SignIn(){
 
         <View style={styles.content}>
           <Text style={styles.title}>
-            Não perca as {'\n'}
-            oportunidades {'\n'} 
+            Belvspet {'\n'}
           </Text>
 
           <Text style={styles.subtitle}>
-            A 2FIT leva até você toda a comodidade de ter {'\n'} 
-            as melhores academias disponíveis.
+            O lugar certo para seu dog {'\n'} 
+            os melhores passeadores.
           </Text>
-
-           {
-            loading ? <ActivityIndicator color={theme.colors.primary} /> :
-            <ButtonIcon2
-              title="Vamos Começar"
-              // onPress={handleSignIn}
-            />  
-          }  
 
           {
             loading ? <ActivityIndicator color={theme.colors.primary} /> :
